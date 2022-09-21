@@ -2,7 +2,7 @@ from betterproto import casing
 
 
 def pythonize_class_name(name: str) -> str:
-    return casing.pascal_case(name)
+    return name
 
 
 def pythonize_field_name(name: str) -> str:

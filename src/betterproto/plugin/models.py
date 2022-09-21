@@ -316,7 +316,7 @@ class MessageCompiler(ProtoContentBase):
 
     @property
     def py_name(self) -> str:
-        return pythonize_class_name(self.proto_name)
+        return self.proto_name[1:]
 
     @property
     def annotation(self) -> str:
